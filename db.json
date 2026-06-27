@@ -1,0 +1,83 @@
+{
+  "members": [
+    {
+      "id": "M-101",
+      "name": "Ali",
+      "email": "ali@gmail.com",
+      "plan": "Elite Membership",
+      "status": "active",
+      "paid": true,
+      "attendanceStatus": "none",
+      "password": "ali123",
+      "createdAt": "2026-06-27T10:00:00.000Z"
+    },
+    {
+      "id": "M-102",
+      "name": "Abdullah",
+      "email": "abdullah@gmail.com",
+      "plan": "Pro Membership",
+      "status": "active",
+      "paid": false,
+      "attendanceStatus": "none",
+      "password": "abdullah123",
+      "createdAt": "2026-06-27T10:00:00.000Z"
+    },
+    {
+      "id": "M-103",
+      "name": "Tayyab",
+      "email": "tayyab@gmail.com",
+      "plan": "Pro Membership",
+      "status": "active",
+      "paid": true,
+      "attendanceStatus": "none",
+      "password": "tayyab123",
+      "createdAt": "2026-06-27T10:00:00.000Z"
+    },
+    {
+      "id": "M-104",
+      "name": "Anas",
+      "email": "anas@gmail.com",
+      "plan": "Basic Membership",
+      "status": "active",
+      "paid": false,
+      "attendanceStatus": "none",
+      "password": "anas123",
+      "createdAt": "2026-06-27T10:00:00.000Z"
+    },
+    {
+      "id": "M-105",
+      "name": "Asad",
+      "email": "asad@gmail.com",
+      "plan": "Pro Membership",
+      "status": "inactive",
+      "paid": false,
+      "attendanceStatus": "none",
+      "password": "asad123",
+      "createdAt": "2026-06-27T10:00:00.000Z"
+    }
+  ],
+  "exercises": {
+    "M-101": [
+      { "name": "Squats", "sets": 4, "reps": 10, "completed": false },
+      { "name": "Leg Press", "sets": 3, "reps": 12, "completed": false },
+      { "name": "Calf Raises", "sets": 4, "reps": 15, "completed": false }
+    ],
+    "M-102": [
+      { "name": "Bench Press", "sets": 4, "reps": 10, "completed": false },
+      { "name": "Incline Dumbbell Fly", "sets": 3, "reps": 12, "completed": false },
+      { "name": "Pushups", "sets": 3, "reps": 20, "completed": false }
+    ],
+    "M-103": [
+      { "name": "Deadlifts", "sets": 4, "reps": 8, "completed": false },
+      { "name": "Pull Ups", "sets": 3, "reps": 10, "completed": false }
+    ],
+    "M-104": [
+      { "name": "Dumbbell Curls", "sets": 4, "reps": 12, "completed": false },
+      { "name": "Tricep Pushdowns", "sets": 3, "reps": 15, "completed": false }
+    ],
+    "M-105": [
+      { "name": "Vinyasa Flow", "sets": 1, "reps": "30 min", "completed": false },
+      { "name": "Plank Hold", "sets": 3, "reps": "1 min", "completed": false }
+    ]
+  }
+}
